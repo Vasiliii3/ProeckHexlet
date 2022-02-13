@@ -1,0 +1,3 @@
+def diff(a, b):
+    phi = abs(b-a) % 360
+    return 360 - phi if phi > 180 else phi
